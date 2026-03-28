@@ -1,3 +1,11 @@
+---
+title: Fast API Ingestion Cloud Service
+emoji: 🚀
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+pinned: false
+---
 # fast-api-ingestion-cloud-service
 
 This service exposes a FastAPI endpoint to ingest documents and index them into a ChromaDB collection.
@@ -72,3 +80,4 @@ curl -X POST "http://localhost:8000/ingest?collection_name=my_collection" \
 ```
 
 The container will write temporary uploads into the `temp/` directory inside the container and clean them up after indexing.
+# fast-api-deploy

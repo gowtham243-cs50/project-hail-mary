@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.env
+temp/
+images/
+=======
 # Version control
 .git
 .gitignore
@@ -48,3 +61,4 @@ htmlcov/
 *.temp
 *.pid
 
+>>>>>>> fe589f9 (replaced docling with llama-cloud)
